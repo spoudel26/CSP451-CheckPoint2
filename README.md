@@ -12,3 +12,4 @@ This repository is a **starter template** for practicing:
 ```bash
 npm install
 npm run dev
+# Test commit for PR creation
