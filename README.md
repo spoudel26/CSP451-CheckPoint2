@@ -1,3 +1,4 @@
+
 # CSP451 Web Starter — Week 2 Checkpoint 2
 
 This repository is a **starter template** for practicing:
@@ -11,8 +12,3 @@ This repository is a **starter template** for practicing:
 ```bash
 npm install
 npm run dev
-
-# Original line
-Database connection is ready.
-# Change for this branch
-Database connection works perfectly in feature/database-connection branch.
