@@ -12,3 +12,7 @@ This repository is a **starter template** for practicing:
 npm install
 npm run dev
 
+# Original line
+Database connection is ready.
+# Change for this branch
+Database connection works perfectly in feature/database-connection branch.
