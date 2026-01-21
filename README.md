@@ -42,3 +42,7 @@ To intentionally create a merge conflict, edit the same lines in one of:
 npm test
 npm run lint
 ```
+### API Endpoints
+- GET /api/users -> list all users
+- GET /api/users/:id -> get a single user by ID
+
