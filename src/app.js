@@ -90,3 +90,6 @@ loginFormSubmit("bob", "wrongpass");  // Wrong password
 loginFormSubmit("charlie", "123");    // Non-existing user
 resetForm();
 displayWelcomeMessage("Alice");
+// More specific feedback helps users understand login failures
+throw new Error("Login failed: username or password is incorrect");
+
