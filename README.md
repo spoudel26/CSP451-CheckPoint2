@@ -42,3 +42,9 @@ To intentionally create a merge conflict, edit the same lines in one of:
 npm test
 npm run lint
 ```
+Database Connection:
+- src/db/database.js
+- connectDatabase() prints "Database connected successfully"
+- Integrated in app.js before server starts
+git add README.md
+git commit -m "docs(db): document database connection module"

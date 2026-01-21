@@ -32,3 +32,12 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+const connectDatabase = require('./db/database');
+
+try {
+    connectDatabase();
+} catch (error) {
+    console.error("Database connection failed:", error);
+}
+git add src/app.js
+git commit -m "feat(db): integrate database connection in app.js with error handling"
